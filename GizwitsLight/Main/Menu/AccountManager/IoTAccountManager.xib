@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IoTAccountManager">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="588-aA-CPj">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="120"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="120" id="xwS-vA-Kbk"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="psK-9e-Lkc"/>
+                        <outlet property="delegate" destination="-1" id="WDj-Qs-hgI"/>
+                    </connections>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wSK-XJ-nMo">
+                    <rect key="frame" x="191" y="534" width="218" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="34" id="Z86-I8-mdK"/>
+                        <constraint firstAttribute="width" constant="218" id="npl-Z2-9D4"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                    <state key="normal" title="注销" backgroundImage="button_logout.png">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="onLogout:" destination="-1" eventType="touchUpInside" id="pFn-qI-zm9"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="588-aA-CPj" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="4Ow-j6-k2L"/>
+                <constraint firstAttribute="centerX" secondItem="wSK-XJ-nMo" secondAttribute="centerX" id="7J6-Lh-sqf"/>
+                <constraint firstItem="588-aA-CPj" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="f1G-LS-tWC"/>
+                <constraint firstAttribute="trailing" secondItem="588-aA-CPj" secondAttribute="trailing" id="iYQ-sA-bcJ"/>
+                <constraint firstAttribute="bottom" secondItem="wSK-XJ-nMo" secondAttribute="bottom" constant="32" id="qtn-N8-CBx"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="button_logout.png" width="218" height="34"/>
+    </resources>
+</document>

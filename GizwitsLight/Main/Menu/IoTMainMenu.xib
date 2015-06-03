@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="IoTMainMenu">
+            <connections>
+                <outlet property="tableView" destination="B3r-ZL-kuy" id="lAO-mx-duq"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" translatesAutoresizingMaskIntoConstraints="NO" id="B3r-ZL-kuy">
+                    <rect key="frame" x="0.0" y="0.0" width="540" height="480"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="o58-QC-xmZ"/>
+                        <outlet property="delegate" destination="-1" id="PXm-8G-OzT"/>
+                    </connections>
+                </tableView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="10" sectionFooterHeight="10" translatesAutoresizingMaskIntoConstraints="NO" id="Xid-5i-e9G">
+                    <rect key="frame" x="0.0" y="480" width="600" height="120"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                </tableView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OMS-To-cPL">
+                    <rect key="frame" x="50" y="558" width="133" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="34" id="5ie-zL-ecf"/>
+                        <constraint firstAttribute="width" constant="133" id="ttS-3k-Ftb"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="返回设备列表" backgroundImage="button_1.png">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="onBack:" destination="-1" eventType="touchUpInside" id="drt-dy-1cy"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1dr-GG-ktI">
+                    <rect key="frame" x="8" y="562" width="40" height="25"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="B3r-ZL-kuy" secondAttribute="trailing" constant="60" id="6IE-n3-8LU"/>
+                <constraint firstAttribute="bottom" secondItem="OMS-To-cPL" secondAttribute="bottom" constant="8" id="AnD-BM-Ye2"/>
+                <constraint firstItem="OMS-To-cPL" firstAttribute="leading" secondItem="1dr-GG-ktI" secondAttribute="trailing" constant="2" id="Bg0-ii-ql4"/>
+                <constraint firstAttribute="bottom" secondItem="B3r-ZL-kuy" secondAttribute="bottom" constant="120" id="GAK-eV-X1a"/>
+                <constraint firstItem="Xid-5i-e9G" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Pyh-MD-lKz"/>
+                <constraint firstItem="B3r-ZL-kuy" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="RNr-qI-xJH"/>
+                <constraint firstItem="1dr-GG-ktI" firstAttribute="top" secondItem="OMS-To-cPL" secondAttribute="top" constant="4" id="Uhu-rE-5oq"/>
+                <constraint firstAttribute="trailing" secondItem="OMS-To-cPL" secondAttribute="trailing" constant="322" id="Yp4-Ct-jxs"/>
+                <constraint firstItem="Xid-5i-e9G" firstAttribute="top" secondItem="B3r-ZL-kuy" secondAttribute="bottom" id="ZCD-Ek-fj9"/>
+                <constraint firstAttribute="bottom" secondItem="Xid-5i-e9G" secondAttribute="bottom" id="ZiQ-vO-9pl"/>
+                <constraint firstItem="OMS-To-cPL" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="50" id="cOT-Tt-X5o"/>
+                <constraint firstItem="OMS-To-cPL" firstAttribute="top" secondItem="B3r-ZL-kuy" secondAttribute="bottom" constant="78" id="d9c-Jc-HD8"/>
+                <constraint firstItem="B3r-ZL-kuy" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="lpB-cU-WRU"/>
+                <constraint firstAttribute="trailing" secondItem="Xid-5i-e9G" secondAttribute="trailing" id="qUM-vc-qz1"/>
+                <constraint firstItem="1dr-GG-ktI" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="rMR-fy-P7C"/>
+                <constraint firstAttribute="bottom" secondItem="1dr-GG-ktI" secondAttribute="bottom" constant="13" id="yeJ-ha-6mG"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="Yp4-Ct-jxs"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+    <resources>
+        <image name="button_1.png" width="125" height="34"/>
+    </resources>
+</document>

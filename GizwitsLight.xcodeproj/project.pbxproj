@@ -1,0 +1,1175 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C31A5D5B1B147A8600E8076D /* hua@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C31A5D5A1B147A8600E8076D /* hua@2x.png */; };
+		C36FFD201A89A33100DFEBC2 /* IoTAbout.m in Sources */ = {isa = PBXBuildFile; fileRef = C36FFD1E1A89A33100DFEBC2 /* IoTAbout.m */; };
+		C36FFD211A89A33100DFEBC2 /* IoTAbout.xib in Resources */ = {isa = PBXBuildFile; fileRef = C36FFD1F1A89A33100DFEBC2 /* IoTAbout.xib */; };
+		C38099F41B0F0A4B00D781F5 /* stripe_min@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C38099F31B0F0A4B00D781F5 /* stripe_min@2x.png */; };
+		C3D9F17F1B0DB56E000EEA47 /* HSVColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D9F17B1B0DB56E000EEA47 /* HSVColorPicker.m */; };
+		C3D9F1801B0DB56E000EEA47 /* UIColor+HexCodes.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D9F17D1B0DB56E000EEA47 /* UIColor+HexCodes.m */; };
+		C3DECE731B0ADD4400EFD7A9 /* icon_off.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DECE6C1B0ADD4400EFD7A9 /* icon_off.png */; };
+		C3DECE741B0ADD4400EFD7A9 /* icon_on.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DECE6D1B0ADD4400EFD7A9 /* icon_on.png */; };
+		C3DECE751B0ADD4400EFD7A9 /* icon-20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DECE6E1B0ADD4400EFD7A9 /* icon-20@2x.png */; };
+		C3DECE761B0ADD4400EFD7A9 /* icon-30@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DECE6F1B0ADD4400EFD7A9 /* icon-30@2x.png */; };
+		C3DECE771B0ADD4400EFD7A9 /* icon-31@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DECE701B0ADD4400EFD7A9 /* icon-31@2x.png */; };
+		C3DECE781B0ADD4400EFD7A9 /* line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DECE711B0ADD4400EFD7A9 /* line@2x.png */; };
+		C3DECE791B0ADD4400EFD7A9 /* sewen_bg4.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DECE721B0ADD4400EFD7A9 /* sewen_bg4.png */; };
+		C3DECE7C1B0AE40E00EFD7A9 /* liangdu_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DECE7A1B0AE40E00EFD7A9 /* liangdu_bg@2x.png */; };
+		C3DECE7D1B0AE40E00EFD7A9 /* sewen_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DECE7B1B0AE40E00EFD7A9 /* sewen_bg@2x.png */; };
+		C3DECE851B0AE6BA00EFD7A9 /* device_list-32@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DECE7F1B0AE6BA00EFD7A9 /* device_list-32@2x.png */; };
+		C3DECE861B0AE6BA00EFD7A9 /* menu_88-02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DECE801B0AE6BA00EFD7A9 /* menu_88-02@2x.png */; };
+		C3DECE871B0AE6BA00EFD7A9 /* menu_88-03@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DECE811B0AE6BA00EFD7A9 /* menu_88-03@2x.png */; };
+		C3DECE881B0AE6BA00EFD7A9 /* menu_88-04@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DECE821B0AE6BA00EFD7A9 /* menu_88-04@2x.png */; };
+		C3DECE891B0AE6BA00EFD7A9 /* menu_88-05@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DECE831B0AE6BA00EFD7A9 /* menu_88-05@2x.png */; };
+		C3DECE8A1B0AE6BA00EFD7A9 /* menu_88@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DECE841B0AE6BA00EFD7A9 /* menu_88@2x.png */; };
+		C3DECE8C1B0B119600EFD7A9 /* icon_left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DECE8B1B0B119600EFD7A9 /* icon_left@2x.png */; };
+		C3DECE8E1B0B119F00EFD7A9 /* icon_menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DECE8D1B0B119F00EFD7A9 /* icon_menu@2x.png */; };
+		C3DECE901B0B11A600EFD7A9 /* icon_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C3DECE8F1B0B11A600EFD7A9 /* icon_right@2x.png */; };
+		C3E323961A89A93F0023FF0A /* IoTAccountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E323911A89A93F0023FF0A /* IoTAccountManager.m */; };
+		C3E323971A89A93F0023FF0A /* IoTAccountManager.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3E323921A89A93F0023FF0A /* IoTAccountManager.xib */; };
+		C3E323981A89A93F0023FF0A /* IoTChangePassword.m in Sources */ = {isa = PBXBuildFile; fileRef = C3E323941A89A93F0023FF0A /* IoTChangePassword.m */; };
+		C3E323991A89A93F0023FF0A /* IoTChangePassword.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3E323951A89A93F0023FF0A /* IoTChangePassword.xib */; };
+		C3EDEFB61AA5B87400972862 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3EDEFB41AA5B84100972862 /* CoreLocation.framework */; };
+		D86BC8EA1AB914A200A4C2D3 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = D86BC8E91AB914A200A4C2D3 /* data.json */; };
+		D88A6F601ABA6DDB006F350A /* cover_menu_bottom_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D88A6F0E1ABA6DDB006F350A /* cover_menu_bottom_bg@2x.png */; };
+		D88A6F611ABA6DDB006F350A /* fault_tips_box@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D88A6F0F1ABA6DDB006F350A /* fault_tips_box@2x.png */; };
+		D88A6F621ABA6DDB006F350A /* tips_box@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D88A6F101ABA6DDB006F350A /* tips_box@2x.png */; };
+		D88A6F631ABA6DDB006F350A /* button_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D88A6F121ABA6DDB006F350A /* button_1@2x.png */; };
+		D88A6F641ABA6DDB006F350A /* call@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D88A6F131ABA6DDB006F350A /* call@2x.png */; };
+		D88A6F651ABA6DDB006F350A /* return_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D88A6F141ABA6DDB006F350A /* return_icon@2x.png */; };
+		D88A6F671ABA6DDB006F350A /* about@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D88A6F191ABA6DDB006F350A /* about@2x.png */; };
+		D88A6F681ABA6DDB006F350A /* about@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D88A6F1B1ABA6DDB006F350A /* about@3x.png */; };
+		D88A6F691ABA6DDB006F350A /* button_logout@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D88A6F1D1ABA6DDB006F350A /* button_logout@2x.png */; };
+		D88A6F711ABA6DDB006F350A /* confirm_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D88A6F261ABA6DDB006F350A /* confirm_icon@2x.png */; };
+		D88A6F721ABA6DDB006F350A /* device-12@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D88A6F271ABA6DDB006F350A /* device-12@2x.png */; };
+		D88A6F731ABA6DDB006F350A /* device-13@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D88A6F281ABA6DDB006F350A /* device-13@2x.png */; };
+		EE13C0A51A27094B0033E8E2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE13C0A41A27094B0033E8E2 /* AVFoundation.framework */; };
+		EE13C0A71A2709560033E8E2 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EE13C0A61A2709560033E8E2 /* libiconv.dylib */; };
+		EE13C0A91A2709650033E8E2 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE13C0A81A2709650033E8E2 /* CoreMedia.framework */; };
+		EE16CA681A1F0E680009FB4E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE16CA671A1F0E680009FB4E /* SystemConfiguration.framework */; };
+		EE16CB111A1F0EE80009FB4E /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EE16CB101A1F0EE80009FB4E /* libc++.dylib */; };
+		EE2769431A41880200E0E89F /* IoTAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2769411A41880200E0E89F /* IoTAlertView.m */; };
+		EE2769441A41880200E0E89F /* IoTAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE2769421A41880200E0E89F /* IoTAlertView.xib */; };
+		EE33B4CF1A1C8ED00003854A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE33B4CE1A1C8ED00003854A /* main.m */; };
+		EE33B4D21A1C8ED00003854A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE33B4D11A1C8ED00003854A /* AppDelegate.m */; };
+		EE5C0E431A3FC7700019CFDD /* IoTHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5C0E411A3FC7700019CFDD /* IoTHelp.m */; };
+		EE5C0E441A3FC7700019CFDD /* IoTHelp.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE5C0E421A3FC7700019CFDD /* IoTHelp.xib */; };
+		EE5C0E4E1A3FC9FA0019CFDD /* IoTHelpDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5C0E4C1A3FC9FA0019CFDD /* IoTHelpDetail.m */; };
+		EE5C0E4F1A3FC9FA0019CFDD /* IoTHelpDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE5C0E4D1A3FC9FA0019CFDD /* IoTHelpDetail.xib */; };
+		EE5C0E5B1A4018C80019CFDD /* IoTMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5C0E591A4018C80019CFDD /* IoTMainController.m */; };
+		EE5C0E5C1A4018C80019CFDD /* IoTMainController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE5C0E5A1A4018C80019CFDD /* IoTMainController.xib */; };
+		EE5D35391A305293001C1E09 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5D35371A305293001C1E09 /* libcrypto.a */; };
+		EE5D353A1A305293001C1E09 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5D35381A305293001C1E09 /* libssl.a */; };
+		EE76914C1A43F14900B682DD /* XPGWifiSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE76914B1A43F14900B682DD /* XPGWifiSDK.framework */; };
+		EE76934C1A44019400B682DD /* License.txt in Resources */ = {isa = PBXBuildFile; fileRef = EE7693371A44019400B682DD /* License.txt */; };
+		EE76934E1A44019400B682DD /* SlideNavigationContorllerAnimatorFade.m in Sources */ = {isa = PBXBuildFile; fileRef = EE76933E1A44019400B682DD /* SlideNavigationContorllerAnimatorFade.m */; };
+		EE76934F1A44019400B682DD /* SlideNavigationContorllerAnimatorScale.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7693401A44019400B682DD /* SlideNavigationContorllerAnimatorScale.m */; };
+		EE7693501A44019400B682DD /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7693421A44019400B682DD /* SlideNavigationContorllerAnimatorScaleAndFade.m */; };
+		EE7693511A44019400B682DD /* SlideNavigationContorllerAnimatorSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7693441A44019400B682DD /* SlideNavigationContorllerAnimatorSlide.m */; };
+		EE7693521A44019400B682DD /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7693461A44019400B682DD /* SlideNavigationContorllerAnimatorSlideAndFade.m */; };
+		EE7693531A44019400B682DD /* menu-button.png in Resources */ = {isa = PBXBuildFile; fileRef = EE7693481A44019400B682DD /* menu-button.png */; };
+		EE7693541A44019400B682DD /* menu-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EE7693491A44019400B682DD /* menu-button@2x.png */; };
+		EE7693551A44019400B682DD /* SlideNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE76934B1A44019400B682DD /* SlideNavigationController.m */; };
+		EE7694061A44091500B682DD /* IoTProcessModule.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EE7694041A44091500B682DD /* IoTProcessModule.bundle */; };
+		EE7694071A44091500B682DD /* libIoTProcessModel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE7694051A44091500B682DD /* libIoTProcessModel.a */; };
+		EE7F41D61A3F2B1100F68022 /* IoTDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7F41D41A3F2B1100F68022 /* IoTDeviceManager.m */; };
+		EE7F41D71A3F2B1100F68022 /* IoTDeviceManager.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE7F41D51A3F2B1100F68022 /* IoTDeviceManager.xib */; };
+		EE85B8B21A42763700B2833F /* IoTMainMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = EE85B8B01A42763700B2833F /* IoTMainMenu.m */; };
+		EE85B8B31A42763700B2833F /* IoTMainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE85B8B11A42763700B2833F /* IoTMainMenu.xib */; };
+		EE85B8C21A42895900B2833F /* IoTDeviceDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = EE85B8C01A42895900B2833F /* IoTDeviceDetail.m */; };
+		EE85B8C31A42895900B2833F /* IoTDeviceDetail.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE85B8C11A42895900B2833F /* IoTDeviceDetail.xib */; };
+		EEB74E7C1A4433930039E467 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EEB74E7E1A4433930039E467 /* Localizable.strings */; };
+		EEB74EA31A4438760039E467 /* zbar-back.png in Resources */ = {isa = PBXBuildFile; fileRef = EEB74E9F1A4438760039E467 /* zbar-back.png */; };
+		EEB74EA41A4438760039E467 /* zbar-help.html in Resources */ = {isa = PBXBuildFile; fileRef = EEB74EA01A4438760039E467 /* zbar-help.html */; };
+		EEB74EA51A4438760039E467 /* zbar-helpicons.png in Resources */ = {isa = PBXBuildFile; fileRef = EEB74EA11A4438760039E467 /* zbar-helpicons.png */; };
+		EEB74EA61A4438760039E467 /* zbar-samples.png in Resources */ = {isa = PBXBuildFile; fileRef = EEB74EA21A4438760039E467 /* zbar-samples.png */; };
+		EEF2567A1A1F265B00FAA268 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEF256791A1F265B00FAA268 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C31A5D5A1B147A8600E8076D /* hua@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hua@2x.png"; sourceTree = "<group>"; };
+		C36FFD1D1A89A33100DFEBC2 /* IoTAbout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IoTAbout.h; sourceTree = "<group>"; };
+		C36FFD1E1A89A33100DFEBC2 /* IoTAbout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IoTAbout.m; sourceTree = "<group>"; };
+		C36FFD1F1A89A33100DFEBC2 /* IoTAbout.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IoTAbout.xib; sourceTree = "<group>"; };
+		C38099F31B0F0A4B00D781F5 /* stripe_min@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stripe_min@2x.png"; sourceTree = "<group>"; };
+		C3D9F17A1B0DB56E000EEA47 /* HSVColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSVColorPicker.h; sourceTree = "<group>"; };
+		C3D9F17B1B0DB56E000EEA47 /* HSVColorPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSVColorPicker.m; sourceTree = "<group>"; };
+		C3D9F17C1B0DB56E000EEA47 /* UIColor+HexCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HexCodes.h"; sourceTree = "<group>"; };
+		C3D9F17D1B0DB56E000EEA47 /* UIColor+HexCodes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HexCodes.m"; sourceTree = "<group>"; };
+		C3DECE6C1B0ADD4400EFD7A9 /* icon_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_off.png; sourceTree = "<group>"; };
+		C3DECE6D1B0ADD4400EFD7A9 /* icon_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_on.png; sourceTree = "<group>"; };
+		C3DECE6E1B0ADD4400EFD7A9 /* icon-20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-20@2x.png"; sourceTree = "<group>"; };
+		C3DECE6F1B0ADD4400EFD7A9 /* icon-30@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-30@2x.png"; sourceTree = "<group>"; };
+		C3DECE701B0ADD4400EFD7A9 /* icon-31@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-31@2x.png"; sourceTree = "<group>"; };
+		C3DECE711B0ADD4400EFD7A9 /* line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "line@2x.png"; sourceTree = "<group>"; };
+		C3DECE721B0ADD4400EFD7A9 /* sewen_bg4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sewen_bg4.png; sourceTree = "<group>"; };
+		C3DECE7A1B0AE40E00EFD7A9 /* liangdu_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "liangdu_bg@2x.png"; sourceTree = "<group>"; };
+		C3DECE7B1B0AE40E00EFD7A9 /* sewen_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sewen_bg@2x.png"; sourceTree = "<group>"; };
+		C3DECE7F1B0AE6BA00EFD7A9 /* device_list-32@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "device_list-32@2x.png"; sourceTree = "<group>"; };
+		C3DECE801B0AE6BA00EFD7A9 /* menu_88-02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_88-02@2x.png"; sourceTree = "<group>"; };
+		C3DECE811B0AE6BA00EFD7A9 /* menu_88-03@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_88-03@2x.png"; sourceTree = "<group>"; };
+		C3DECE821B0AE6BA00EFD7A9 /* menu_88-04@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_88-04@2x.png"; sourceTree = "<group>"; };
+		C3DECE831B0AE6BA00EFD7A9 /* menu_88-05@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_88-05@2x.png"; sourceTree = "<group>"; };
+		C3DECE841B0AE6BA00EFD7A9 /* menu_88@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_88@2x.png"; sourceTree = "<group>"; };
+		C3DECE8B1B0B119600EFD7A9 /* icon_left@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_left@2x.png"; sourceTree = "<group>"; };
+		C3DECE8D1B0B119F00EFD7A9 /* icon_menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_menu@2x.png"; sourceTree = "<group>"; };
+		C3DECE8F1B0B11A600EFD7A9 /* icon_right@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_right@2x.png"; sourceTree = "<group>"; };
+		C3E323901A89A93F0023FF0A /* IoTAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IoTAccountManager.h; sourceTree = "<group>"; };
+		C3E323911A89A93F0023FF0A /* IoTAccountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IoTAccountManager.m; sourceTree = "<group>"; };
+		C3E323921A89A93F0023FF0A /* IoTAccountManager.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IoTAccountManager.xib; sourceTree = "<group>"; };
+		C3E323931A89A93F0023FF0A /* IoTChangePassword.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IoTChangePassword.h; sourceTree = "<group>"; };
+		C3E323941A89A93F0023FF0A /* IoTChangePassword.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IoTChangePassword.m; sourceTree = "<group>"; };
+		C3E323951A89A93F0023FF0A /* IoTChangePassword.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IoTChangePassword.xib; sourceTree = "<group>"; };
+		C3EDEFB41AA5B84100972862 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		D86BC8E91AB914A200A4C2D3 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		D88A6F0E1ABA6DDB006F350A /* cover_menu_bottom_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cover_menu_bottom_bg@2x.png"; sourceTree = "<group>"; };
+		D88A6F0F1ABA6DDB006F350A /* fault_tips_box@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fault_tips_box@2x.png"; sourceTree = "<group>"; };
+		D88A6F101ABA6DDB006F350A /* tips_box@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tips_box@2x.png"; sourceTree = "<group>"; };
+		D88A6F121ABA6DDB006F350A /* button_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_1@2x.png"; sourceTree = "<group>"; };
+		D88A6F131ABA6DDB006F350A /* call@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "call@2x.png"; sourceTree = "<group>"; };
+		D88A6F141ABA6DDB006F350A /* return_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "return_icon@2x.png"; sourceTree = "<group>"; };
+		D88A6F191ABA6DDB006F350A /* about@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about@2x.png"; sourceTree = "<group>"; };
+		D88A6F1B1ABA6DDB006F350A /* about@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about@3x.png"; sourceTree = "<group>"; };
+		D88A6F1D1ABA6DDB006F350A /* button_logout@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_logout@2x.png"; sourceTree = "<group>"; };
+		D88A6F261ABA6DDB006F350A /* confirm_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "confirm_icon@2x.png"; sourceTree = "<group>"; };
+		D88A6F271ABA6DDB006F350A /* device-12@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "device-12@2x.png"; sourceTree = "<group>"; };
+		D88A6F281ABA6DDB006F350A /* device-13@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "device-13@2x.png"; sourceTree = "<group>"; };
+		EE13C0A41A27094B0033E8E2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EE13C0A61A2709560033E8E2 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		EE13C0A81A2709650033E8E2 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		EE16CA671A1F0E680009FB4E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EE16CB101A1F0EE80009FB4E /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		EE2769401A41880100E0E89F /* IoTAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IoTAlertView.h; sourceTree = "<group>"; };
+		EE2769411A41880200E0E89F /* IoTAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IoTAlertView.m; sourceTree = "<group>"; };
+		EE2769421A41880200E0E89F /* IoTAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IoTAlertView.xib; sourceTree = "<group>"; };
+		EE33B4C91A1C8ED00003854A /* GizwitsLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GizwitsLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE33B4CD1A1C8ED00003854A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE33B4CE1A1C8ED00003854A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE33B4D01A1C8ED00003854A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE33B4D11A1C8ED00003854A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE5C0E401A3FC7700019CFDD /* IoTHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IoTHelp.h; sourceTree = "<group>"; };
+		EE5C0E411A3FC7700019CFDD /* IoTHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IoTHelp.m; sourceTree = "<group>"; };
+		EE5C0E421A3FC7700019CFDD /* IoTHelp.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IoTHelp.xib; sourceTree = "<group>"; };
+		EE5C0E4B1A3FC9FA0019CFDD /* IoTHelpDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IoTHelpDetail.h; sourceTree = "<group>"; };
+		EE5C0E4C1A3FC9FA0019CFDD /* IoTHelpDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IoTHelpDetail.m; sourceTree = "<group>"; };
+		EE5C0E4D1A3FC9FA0019CFDD /* IoTHelpDetail.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IoTHelpDetail.xib; sourceTree = "<group>"; };
+		EE5C0E571A4014920019CFDD /* GizwitsLight.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GizwitsLight.pch; sourceTree = "<group>"; };
+		EE5C0E581A4018C80019CFDD /* IoTMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IoTMainController.h; sourceTree = "<group>"; };
+		EE5C0E591A4018C80019CFDD /* IoTMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IoTMainController.m; sourceTree = "<group>"; };
+		EE5C0E5A1A4018C80019CFDD /* IoTMainController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IoTMainController.xib; sourceTree = "<group>"; };
+		EE5D34EB1A305293001C1E09 /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		EE5D34EC1A305293001C1E09 /* asn1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1.h; sourceTree = "<group>"; };
+		EE5D34ED1A305293001C1E09 /* asn1_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1_mac.h; sourceTree = "<group>"; };
+		EE5D34EE1A305293001C1E09 /* asn1t.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1t.h; sourceTree = "<group>"; };
+		EE5D34EF1A305293001C1E09 /* bio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bio.h; sourceTree = "<group>"; };
+		EE5D34F01A305293001C1E09 /* blowfish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blowfish.h; sourceTree = "<group>"; };
+		EE5D34F11A305293001C1E09 /* bn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bn.h; sourceTree = "<group>"; };
+		EE5D34F21A305293001C1E09 /* buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
+		EE5D34F31A305293001C1E09 /* camellia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = camellia.h; sourceTree = "<group>"; };
+		EE5D34F41A305293001C1E09 /* cast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cast.h; sourceTree = "<group>"; };
+		EE5D34F51A305293001C1E09 /* cmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cmac.h; sourceTree = "<group>"; };
+		EE5D34F61A305293001C1E09 /* cms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cms.h; sourceTree = "<group>"; };
+		EE5D34F71A305293001C1E09 /* comp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = comp.h; sourceTree = "<group>"; };
+		EE5D34F81A305293001C1E09 /* conf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conf.h; sourceTree = "<group>"; };
+		EE5D34F91A305293001C1E09 /* conf_api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conf_api.h; sourceTree = "<group>"; };
+		EE5D34FA1A305293001C1E09 /* crypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto.h; sourceTree = "<group>"; };
+		EE5D34FB1A305293001C1E09 /* des.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = des.h; sourceTree = "<group>"; };
+		EE5D34FC1A305293001C1E09 /* des_old.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = des_old.h; sourceTree = "<group>"; };
+		EE5D34FD1A305293001C1E09 /* dh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dh.h; sourceTree = "<group>"; };
+		EE5D34FE1A305293001C1E09 /* dsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dsa.h; sourceTree = "<group>"; };
+		EE5D34FF1A305293001C1E09 /* dso.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dso.h; sourceTree = "<group>"; };
+		EE5D35001A305293001C1E09 /* dtls1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dtls1.h; sourceTree = "<group>"; };
+		EE5D35011A305293001C1E09 /* e_os2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = e_os2.h; sourceTree = "<group>"; };
+		EE5D35021A305293001C1E09 /* ebcdic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ebcdic.h; sourceTree = "<group>"; };
+		EE5D35031A305293001C1E09 /* ec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ec.h; sourceTree = "<group>"; };
+		EE5D35041A305293001C1E09 /* ecdh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecdh.h; sourceTree = "<group>"; };
+		EE5D35051A305293001C1E09 /* ecdsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecdsa.h; sourceTree = "<group>"; };
+		EE5D35061A305293001C1E09 /* engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = engine.h; sourceTree = "<group>"; };
+		EE5D35071A305293001C1E09 /* err.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = err.h; sourceTree = "<group>"; };
+		EE5D35081A305293001C1E09 /* evp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = evp.h; sourceTree = "<group>"; };
+		EE5D35091A305293001C1E09 /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		EE5D350A1A305293001C1E09 /* idea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = idea.h; sourceTree = "<group>"; };
+		EE5D350B1A305293001C1E09 /* krb5_asn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = krb5_asn.h; sourceTree = "<group>"; };
+		EE5D350C1A305293001C1E09 /* kssl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kssl.h; sourceTree = "<group>"; };
+		EE5D350D1A305293001C1E09 /* lhash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lhash.h; sourceTree = "<group>"; };
+		EE5D350E1A305293001C1E09 /* md4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md4.h; sourceTree = "<group>"; };
+		EE5D350F1A305293001C1E09 /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		EE5D35101A305293001C1E09 /* mdc2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mdc2.h; sourceTree = "<group>"; };
+		EE5D35111A305293001C1E09 /* modes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modes.h; sourceTree = "<group>"; };
+		EE5D35121A305293001C1E09 /* obj_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = obj_mac.h; sourceTree = "<group>"; };
+		EE5D35131A305293001C1E09 /* objects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = objects.h; sourceTree = "<group>"; };
+		EE5D35141A305293001C1E09 /* ocsp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ocsp.h; sourceTree = "<group>"; };
+		EE5D35151A305293001C1E09 /* opensslconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opensslconf.h; sourceTree = "<group>"; };
+		EE5D35161A305293001C1E09 /* opensslv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opensslv.h; sourceTree = "<group>"; };
+		EE5D35171A305293001C1E09 /* ossl_typ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ossl_typ.h; sourceTree = "<group>"; };
+		EE5D35181A305293001C1E09 /* pem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pem.h; sourceTree = "<group>"; };
+		EE5D35191A305293001C1E09 /* pem2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pem2.h; sourceTree = "<group>"; };
+		EE5D351A1A305293001C1E09 /* pkcs12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pkcs12.h; sourceTree = "<group>"; };
+		EE5D351B1A305293001C1E09 /* pkcs7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pkcs7.h; sourceTree = "<group>"; };
+		EE5D351C1A305293001C1E09 /* pqueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pqueue.h; sourceTree = "<group>"; };
+		EE5D351D1A305293001C1E09 /* rand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rand.h; sourceTree = "<group>"; };
+		EE5D351E1A305293001C1E09 /* rc2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rc2.h; sourceTree = "<group>"; };
+		EE5D351F1A305293001C1E09 /* rc4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rc4.h; sourceTree = "<group>"; };
+		EE5D35201A305293001C1E09 /* ripemd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ripemd.h; sourceTree = "<group>"; };
+		EE5D35211A305293001C1E09 /* rsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rsa.h; sourceTree = "<group>"; };
+		EE5D35221A305293001C1E09 /* safestack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = safestack.h; sourceTree = "<group>"; };
+		EE5D35231A305293001C1E09 /* seed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = seed.h; sourceTree = "<group>"; };
+		EE5D35241A305293001C1E09 /* sha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha.h; sourceTree = "<group>"; };
+		EE5D35251A305293001C1E09 /* srp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = srp.h; sourceTree = "<group>"; };
+		EE5D35261A305293001C1E09 /* srtp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = srtp.h; sourceTree = "<group>"; };
+		EE5D35271A305293001C1E09 /* ssl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl.h; sourceTree = "<group>"; };
+		EE5D35281A305293001C1E09 /* ssl2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl2.h; sourceTree = "<group>"; };
+		EE5D35291A305293001C1E09 /* ssl23.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl23.h; sourceTree = "<group>"; };
+		EE5D352A1A305293001C1E09 /* ssl3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl3.h; sourceTree = "<group>"; };
+		EE5D352B1A305293001C1E09 /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		EE5D352C1A305293001C1E09 /* symhacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = symhacks.h; sourceTree = "<group>"; };
+		EE5D352D1A305293001C1E09 /* tls1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tls1.h; sourceTree = "<group>"; };
+		EE5D352E1A305293001C1E09 /* ts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ts.h; sourceTree = "<group>"; };
+		EE5D352F1A305293001C1E09 /* txt_db.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = txt_db.h; sourceTree = "<group>"; };
+		EE5D35301A305293001C1E09 /* ui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ui.h; sourceTree = "<group>"; };
+		EE5D35311A305293001C1E09 /* ui_compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ui_compat.h; sourceTree = "<group>"; };
+		EE5D35321A305293001C1E09 /* whrlpool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = whrlpool.h; sourceTree = "<group>"; };
+		EE5D35331A305293001C1E09 /* x509.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509.h; sourceTree = "<group>"; };
+		EE5D35341A305293001C1E09 /* x509_vfy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509_vfy.h; sourceTree = "<group>"; };
+		EE5D35351A305293001C1E09 /* x509v3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509v3.h; sourceTree = "<group>"; };
+		EE5D35371A305293001C1E09 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		EE5D35381A305293001C1E09 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		EE7691471A43F14500B682DD /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		EE76914B1A43F14900B682DD /* XPGWifiSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = XPGWifiSDK.framework; sourceTree = "<group>"; };
+		EE7693371A44019400B682DD /* License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = License.txt; sourceTree = "<group>"; };
+		EE76933C1A44019400B682DD /* SlideNavigationContorllerAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimator.h; sourceTree = "<group>"; };
+		EE76933D1A44019400B682DD /* SlideNavigationContorllerAnimatorFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorFade.h; sourceTree = "<group>"; };
+		EE76933E1A44019400B682DD /* SlideNavigationContorllerAnimatorFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorFade.m; sourceTree = "<group>"; };
+		EE76933F1A44019400B682DD /* SlideNavigationContorllerAnimatorScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorScale.h; sourceTree = "<group>"; };
+		EE7693401A44019400B682DD /* SlideNavigationContorllerAnimatorScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorScale.m; sourceTree = "<group>"; };
+		EE7693411A44019400B682DD /* SlideNavigationContorllerAnimatorScaleAndFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorScaleAndFade.h; sourceTree = "<group>"; };
+		EE7693421A44019400B682DD /* SlideNavigationContorllerAnimatorScaleAndFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorScaleAndFade.m; sourceTree = "<group>"; };
+		EE7693431A44019400B682DD /* SlideNavigationContorllerAnimatorSlide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorSlide.h; sourceTree = "<group>"; };
+		EE7693441A44019400B682DD /* SlideNavigationContorllerAnimatorSlide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorSlide.m; sourceTree = "<group>"; };
+		EE7693451A44019400B682DD /* SlideNavigationContorllerAnimatorSlideAndFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorSlideAndFade.h; sourceTree = "<group>"; };
+		EE7693461A44019400B682DD /* SlideNavigationContorllerAnimatorSlideAndFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorSlideAndFade.m; sourceTree = "<group>"; };
+		EE7693481A44019400B682DD /* menu-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-button.png"; sourceTree = "<group>"; };
+		EE7693491A44019400B682DD /* menu-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-button@2x.png"; sourceTree = "<group>"; };
+		EE76934A1A44019400B682DD /* SlideNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationController.h; sourceTree = "<group>"; };
+		EE76934B1A44019400B682DD /* SlideNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationController.m; sourceTree = "<group>"; };
+		EE7694011A44091500B682DD /* IoTDeviceList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IoTDeviceList.h; sourceTree = "<group>"; };
+		EE7694021A44091500B682DD /* IoTLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IoTLogin.h; sourceTree = "<group>"; };
+		EE7694031A44091500B682DD /* IoTProcessModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IoTProcessModel.h; sourceTree = "<group>"; };
+		EE7694041A44091500B682DD /* IoTProcessModule.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IoTProcessModule.bundle; sourceTree = "<group>"; };
+		EE7694051A44091500B682DD /* libIoTProcessModel.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libIoTProcessModel.a; sourceTree = "<group>"; };
+		EE7F41D31A3F2B1100F68022 /* IoTDeviceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IoTDeviceManager.h; sourceTree = "<group>"; };
+		EE7F41D41A3F2B1100F68022 /* IoTDeviceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IoTDeviceManager.m; sourceTree = "<group>"; };
+		EE7F41D51A3F2B1100F68022 /* IoTDeviceManager.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IoTDeviceManager.xib; sourceTree = "<group>"; };
+		EE85B8AF1A42763700B2833F /* IoTMainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IoTMainMenu.h; sourceTree = "<group>"; };
+		EE85B8B01A42763700B2833F /* IoTMainMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IoTMainMenu.m; sourceTree = "<group>"; };
+		EE85B8B11A42763700B2833F /* IoTMainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IoTMainMenu.xib; sourceTree = "<group>"; };
+		EE85B8BF1A42895900B2833F /* IoTDeviceDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IoTDeviceDetail.h; sourceTree = "<group>"; };
+		EE85B8C01A42895900B2833F /* IoTDeviceDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IoTDeviceDetail.m; sourceTree = "<group>"; };
+		EE85B8C11A42895900B2833F /* IoTDeviceDetail.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IoTDeviceDetail.xib; sourceTree = "<group>"; };
+		EEB74E7D1A4433930039E467 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		EEB74E7F1A4433B00039E467 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		EEB74E8A1A4438760039E467 /* Decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decoder.h; sourceTree = "<group>"; };
+		EEB74E8B1A4438760039E467 /* Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exception.h; sourceTree = "<group>"; };
+		EEB74E8C1A4438760039E467 /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		EEB74E8D1A4438760039E467 /* ImageScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageScanner.h; sourceTree = "<group>"; };
+		EEB74E8E1A4438760039E467 /* Processor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processor.h; sourceTree = "<group>"; };
+		EEB74E8F1A4438760039E467 /* Scanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scanner.h; sourceTree = "<group>"; };
+		EEB74E901A4438760039E467 /* Symbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Symbol.h; sourceTree = "<group>"; };
+		EEB74E911A4438760039E467 /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		EEB74E921A4438760039E467 /* Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Window.h; sourceTree = "<group>"; };
+		EEB74E931A4438760039E467 /* zbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zbar.h; sourceTree = "<group>"; };
+		EEB74E941A4438760039E467 /* ZBarCameraSimulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarCameraSimulator.h; sourceTree = "<group>"; };
+		EEB74E951A4438760039E467 /* ZBarCaptureReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarCaptureReader.h; sourceTree = "<group>"; };
+		EEB74E961A4438760039E467 /* ZBarHelpController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarHelpController.h; sourceTree = "<group>"; };
+		EEB74E971A4438760039E467 /* ZBarImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarImage.h; sourceTree = "<group>"; };
+		EEB74E981A4438760039E467 /* ZBarImageScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarImageScanner.h; sourceTree = "<group>"; };
+		EEB74E991A4438760039E467 /* ZBarReaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderController.h; sourceTree = "<group>"; };
+		EEB74E9A1A4438760039E467 /* ZBarReaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderView.h; sourceTree = "<group>"; };
+		EEB74E9B1A4438760039E467 /* ZBarReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderViewController.h; sourceTree = "<group>"; };
+		EEB74E9C1A4438760039E467 /* ZBarSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarSDK.h; sourceTree = "<group>"; };
+		EEB74E9D1A4438760039E467 /* ZBarSymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarSymbol.h; sourceTree = "<group>"; };
+		EEB74E9F1A4438760039E467 /* zbar-back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-back.png"; sourceTree = "<group>"; };
+		EEB74EA01A4438760039E467 /* zbar-help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "zbar-help.html"; sourceTree = "<group>"; };
+		EEB74EA11A4438760039E467 /* zbar-helpicons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-helpicons.png"; sourceTree = "<group>"; };
+		EEB74EA21A4438760039E467 /* zbar-samples.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-samples.png"; sourceTree = "<group>"; };
+		EEF256791A1F265B00FAA268 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE33B4C61A1C8ED00003854A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3EDEFB61AA5B87400972862 /* CoreLocation.framework in Frameworks */,
+				EE76914C1A43F14900B682DD /* XPGWifiSDK.framework in Frameworks */,
+				EE5D353A1A305293001C1E09 /* libssl.a in Frameworks */,
+				EE13C0A91A2709650033E8E2 /* CoreMedia.framework in Frameworks */,
+				EE13C0A71A2709560033E8E2 /* libiconv.dylib in Frameworks */,
+				EE7694071A44091500B682DD /* libIoTProcessModel.a in Frameworks */,
+				EE13C0A51A27094B0033E8E2 /* AVFoundation.framework in Frameworks */,
+				EE16CB111A1F0EE80009FB4E /* libc++.dylib in Frameworks */,
+				EE16CA681A1F0E680009FB4E /* SystemConfiguration.framework in Frameworks */,
+				EE5D35391A305293001C1E09 /* libcrypto.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3D9F1771B0DB56E000EEA47 /* HSVColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				C3D9F1781B0DB56E000EEA47 /* Classes */,
+				C3D9F17C1B0DB56E000EEA47 /* UIColor+HexCodes.h */,
+				C3D9F17D1B0DB56E000EEA47 /* UIColor+HexCodes.m */,
+			);
+			name = HSVColorPicker;
+			path = Utils/HSVColorPicker;
+			sourceTree = SOURCE_ROOT;
+		};
+		C3D9F1781B0DB56E000EEA47 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C3D9F17A1B0DB56E000EEA47 /* HSVColorPicker.h */,
+				C3D9F17B1B0DB56E000EEA47 /* HSVColorPicker.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C3DECE7E1B0AE6BA00EFD7A9 /* menu */ = {
+			isa = PBXGroup;
+			children = (
+				C3DECE7F1B0AE6BA00EFD7A9 /* device_list-32@2x.png */,
+				C3DECE801B0AE6BA00EFD7A9 /* menu_88-02@2x.png */,
+				C3DECE811B0AE6BA00EFD7A9 /* menu_88-03@2x.png */,
+				C3DECE821B0AE6BA00EFD7A9 /* menu_88-04@2x.png */,
+				C3DECE831B0AE6BA00EFD7A9 /* menu_88-05@2x.png */,
+				C3DECE841B0AE6BA00EFD7A9 /* menu_88@2x.png */,
+			);
+			path = menu;
+			sourceTree = "<group>";
+		};
+		C3E3238F1A89A93F0023FF0A /* AccountManager */ = {
+			isa = PBXGroup;
+			children = (
+				C3E323901A89A93F0023FF0A /* IoTAccountManager.h */,
+				C3E323911A89A93F0023FF0A /* IoTAccountManager.m */,
+				C3E323921A89A93F0023FF0A /* IoTAccountManager.xib */,
+				C3E323931A89A93F0023FF0A /* IoTChangePassword.h */,
+				C3E323941A89A93F0023FF0A /* IoTChangePassword.m */,
+				C3E323951A89A93F0023FF0A /* IoTChangePassword.xib */,
+			);
+			path = AccountManager;
+			sourceTree = "<group>";
+		};
+		D88A6F0D1ABA6DDB006F350A /* alert */ = {
+			isa = PBXGroup;
+			children = (
+				D88A6F0E1ABA6DDB006F350A /* cover_menu_bottom_bg@2x.png */,
+				D88A6F0F1ABA6DDB006F350A /* fault_tips_box@2x.png */,
+				D88A6F101ABA6DDB006F350A /* tips_box@2x.png */,
+			);
+			path = alert;
+			sourceTree = "<group>";
+		};
+		D88A6F111ABA6DDB006F350A /* common */ = {
+			isa = PBXGroup;
+			children = (
+				D88A6F121ABA6DDB006F350A /* button_1@2x.png */,
+				D88A6F131ABA6DDB006F350A /* call@2x.png */,
+				D88A6F141ABA6DDB006F350A /* return_icon@2x.png */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		D88A6F151ABA6DDB006F350A /* main */ = {
+			isa = PBXGroup;
+			children = (
+				C31A5D5A1B147A8600E8076D /* hua@2x.png */,
+				C3DECE8F1B0B11A600EFD7A9 /* icon_right@2x.png */,
+				C3DECE8D1B0B119F00EFD7A9 /* icon_menu@2x.png */,
+				C3DECE8B1B0B119600EFD7A9 /* icon_left@2x.png */,
+				C3DECE7A1B0AE40E00EFD7A9 /* liangdu_bg@2x.png */,
+				C3DECE7B1B0AE40E00EFD7A9 /* sewen_bg@2x.png */,
+				C38099F31B0F0A4B00D781F5 /* stripe_min@2x.png */,
+				C3DECE6C1B0ADD4400EFD7A9 /* icon_off.png */,
+				C3DECE6D1B0ADD4400EFD7A9 /* icon_on.png */,
+				C3DECE6E1B0ADD4400EFD7A9 /* icon-20@2x.png */,
+				C3DECE6F1B0ADD4400EFD7A9 /* icon-30@2x.png */,
+				C3DECE701B0ADD4400EFD7A9 /* icon-31@2x.png */,
+				C3DECE711B0ADD4400EFD7A9 /* line@2x.png */,
+				C3DECE721B0ADD4400EFD7A9 /* sewen_bg4.png */,
+				D88A6F171ABA6DDB006F350A /* about */,
+				D88A6F1C1ABA6DDB006F350A /* account */,
+				D88A6F251ABA6DDB006F350A /* device */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		D88A6F171ABA6DDB006F350A /* about */ = {
+			isa = PBXGroup;
+			children = (
+				D88A6F181ABA6DDB006F350A /* 2x */,
+				D88A6F1A1ABA6DDB006F350A /* 3x */,
+			);
+			path = about;
+			sourceTree = "<group>";
+		};
+		D88A6F181ABA6DDB006F350A /* 2x */ = {
+			isa = PBXGroup;
+			children = (
+				D88A6F191ABA6DDB006F350A /* about@2x.png */,
+			);
+			path = 2x;
+			sourceTree = "<group>";
+		};
+		D88A6F1A1ABA6DDB006F350A /* 3x */ = {
+			isa = PBXGroup;
+			children = (
+				D88A6F1B1ABA6DDB006F350A /* about@3x.png */,
+			);
+			path = 3x;
+			sourceTree = "<group>";
+		};
+		D88A6F1C1ABA6DDB006F350A /* account */ = {
+			isa = PBXGroup;
+			children = (
+				D88A6F1D1ABA6DDB006F350A /* button_logout@2x.png */,
+			);
+			path = account;
+			sourceTree = "<group>";
+		};
+		D88A6F251ABA6DDB006F350A /* device */ = {
+			isa = PBXGroup;
+			children = (
+				D88A6F261ABA6DDB006F350A /* confirm_icon@2x.png */,
+				D88A6F271ABA6DDB006F350A /* device-12@2x.png */,
+				D88A6F281ABA6DDB006F350A /* device-13@2x.png */,
+			);
+			path = device;
+			sourceTree = "<group>";
+		};
+		D8B3C2A21A315E9C00CCC33A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EE6BF5BD1A3EDD4E00363385 /* Menu */,
+				EE5C0E581A4018C80019CFDD /* IoTMainController.h */,
+				EE5C0E591A4018C80019CFDD /* IoTMainController.m */,
+				EE5C0E5A1A4018C80019CFDD /* IoTMainController.xib */,
+				EE2769401A41880100E0E89F /* IoTAlertView.h */,
+				EE2769411A41880200E0E89F /* IoTAlertView.m */,
+				EE2769421A41880200E0E89F /* IoTAlertView.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E282E6B11AAE8A3000437088 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				C3DECE7E1B0AE6BA00EFD7A9 /* menu */,
+				D88A6F0D1ABA6DDB006F350A /* alert */,
+				D88A6F111ABA6DDB006F350A /* common */,
+				D88A6F151ABA6DDB006F350A /* main */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		EE16C9941A1EF20F0009FB4E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D86BC8E91AB914A200A4C2D3 /* data.json */,
+				E282E6B11AAE8A3000437088 /* Image */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EE33B4C01A1C8ED00003854A = {
+			isa = PBXGroup;
+			children = (
+				EE33B4CB1A1C8ED00003854A /* GizwitsLight */,
+				EE33B4CA1A1C8ED00003854A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE33B4CA1A1C8ED00003854A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE33B4C91A1C8ED00003854A /* GizwitsLight.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE33B4CB1A1C8ED00003854A /* GizwitsLight */ = {
+			isa = PBXGroup;
+			children = (
+				EE16C9941A1EF20F0009FB4E /* Resources */,
+				EEC35B141A1EEC2400B28C03 /* Utils */,
+				D8B3C2A21A315E9C00CCC33A /* Main */,
+				EE33B4D01A1C8ED00003854A /* AppDelegate.h */,
+				EE33B4D11A1C8ED00003854A /* AppDelegate.m */,
+				EEF256791A1F265B00FAA268 /* Images.xcassets */,
+				EE33B4CC1A1C8ED00003854A /* Supporting Files */,
+			);
+			path = GizwitsLight;
+			sourceTree = "<group>";
+		};
+		EE33B4CC1A1C8ED00003854A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3EDEFB41AA5B84100972862 /* CoreLocation.framework */,
+				EE13C0A81A2709650033E8E2 /* CoreMedia.framework */,
+				EE13C0A61A2709560033E8E2 /* libiconv.dylib */,
+				EE13C0A41A27094B0033E8E2 /* AVFoundation.framework */,
+				EE16CB101A1F0EE80009FB4E /* libc++.dylib */,
+				EE16CA671A1F0E680009FB4E /* SystemConfiguration.framework */,
+				EE33B4CD1A1C8ED00003854A /* Info.plist */,
+				EE33B4CE1A1C8ED00003854A /* main.m */,
+				EE5C0E571A4014920019CFDD /* GizwitsLight.pch */,
+				EEB74E7E1A4433930039E467 /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE5D34E91A305293001C1E09 /* OpenSSL-Universal */ = {
+			isa = PBXGroup;
+			children = (
+				EE5D34EA1A305293001C1E09 /* Include */,
+				EE5D35361A305293001C1E09 /* library */,
+			);
+			name = "OpenSSL-Universal";
+			path = "Utils/OpenSSL-Universal";
+			sourceTree = SOURCE_ROOT;
+		};
+		EE5D34EA1A305293001C1E09 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				EE5D34EB1A305293001C1E09 /* aes.h */,
+				EE5D34EC1A305293001C1E09 /* asn1.h */,
+				EE5D34ED1A305293001C1E09 /* asn1_mac.h */,
+				EE5D34EE1A305293001C1E09 /* asn1t.h */,
+				EE5D34EF1A305293001C1E09 /* bio.h */,
+				EE5D34F01A305293001C1E09 /* blowfish.h */,
+				EE5D34F11A305293001C1E09 /* bn.h */,
+				EE5D34F21A305293001C1E09 /* buffer.h */,
+				EE5D34F31A305293001C1E09 /* camellia.h */,
+				EE5D34F41A305293001C1E09 /* cast.h */,
+				EE5D34F51A305293001C1E09 /* cmac.h */,
+				EE5D34F61A305293001C1E09 /* cms.h */,
+				EE5D34F71A305293001C1E09 /* comp.h */,
+				EE5D34F81A305293001C1E09 /* conf.h */,
+				EE5D34F91A305293001C1E09 /* conf_api.h */,
+				EE5D34FA1A305293001C1E09 /* crypto.h */,
+				EE5D34FB1A305293001C1E09 /* des.h */,
+				EE5D34FC1A305293001C1E09 /* des_old.h */,
+				EE5D34FD1A305293001C1E09 /* dh.h */,
+				EE5D34FE1A305293001C1E09 /* dsa.h */,
+				EE5D34FF1A305293001C1E09 /* dso.h */,
+				EE5D35001A305293001C1E09 /* dtls1.h */,
+				EE5D35011A305293001C1E09 /* e_os2.h */,
+				EE5D35021A305293001C1E09 /* ebcdic.h */,
+				EE5D35031A305293001C1E09 /* ec.h */,
+				EE5D35041A305293001C1E09 /* ecdh.h */,
+				EE5D35051A305293001C1E09 /* ecdsa.h */,
+				EE5D35061A305293001C1E09 /* engine.h */,
+				EE5D35071A305293001C1E09 /* err.h */,
+				EE5D35081A305293001C1E09 /* evp.h */,
+				EE5D35091A305293001C1E09 /* hmac.h */,
+				EE5D350A1A305293001C1E09 /* idea.h */,
+				EE5D350B1A305293001C1E09 /* krb5_asn.h */,
+				EE5D350C1A305293001C1E09 /* kssl.h */,
+				EE5D350D1A305293001C1E09 /* lhash.h */,
+				EE5D350E1A305293001C1E09 /* md4.h */,
+				EE5D350F1A305293001C1E09 /* md5.h */,
+				EE5D35101A305293001C1E09 /* mdc2.h */,
+				EE5D35111A305293001C1E09 /* modes.h */,
+				EE5D35121A305293001C1E09 /* obj_mac.h */,
+				EE5D35131A305293001C1E09 /* objects.h */,
+				EE5D35141A305293001C1E09 /* ocsp.h */,
+				EE5D35151A305293001C1E09 /* opensslconf.h */,
+				EE5D35161A305293001C1E09 /* opensslv.h */,
+				EE5D35171A305293001C1E09 /* ossl_typ.h */,
+				EE5D35181A305293001C1E09 /* pem.h */,
+				EE5D35191A305293001C1E09 /* pem2.h */,
+				EE5D351A1A305293001C1E09 /* pkcs12.h */,
+				EE5D351B1A305293001C1E09 /* pkcs7.h */,
+				EE5D351C1A305293001C1E09 /* pqueue.h */,
+				EE5D351D1A305293001C1E09 /* rand.h */,
+				EE5D351E1A305293001C1E09 /* rc2.h */,
+				EE5D351F1A305293001C1E09 /* rc4.h */,
+				EE5D35201A305293001C1E09 /* ripemd.h */,
+				EE5D35211A305293001C1E09 /* rsa.h */,
+				EE5D35221A305293001C1E09 /* safestack.h */,
+				EE5D35231A305293001C1E09 /* seed.h */,
+				EE5D35241A305293001C1E09 /* sha.h */,
+				EE5D35251A305293001C1E09 /* srp.h */,
+				EE5D35261A305293001C1E09 /* srtp.h */,
+				EE5D35271A305293001C1E09 /* ssl.h */,
+				EE5D35281A305293001C1E09 /* ssl2.h */,
+				EE5D35291A305293001C1E09 /* ssl23.h */,
+				EE5D352A1A305293001C1E09 /* ssl3.h */,
+				EE5D352B1A305293001C1E09 /* stack.h */,
+				EE5D352C1A305293001C1E09 /* symhacks.h */,
+				EE5D352D1A305293001C1E09 /* tls1.h */,
+				EE5D352E1A305293001C1E09 /* ts.h */,
+				EE5D352F1A305293001C1E09 /* txt_db.h */,
+				EE5D35301A305293001C1E09 /* ui.h */,
+				EE5D35311A305293001C1E09 /* ui_compat.h */,
+				EE5D35321A305293001C1E09 /* whrlpool.h */,
+				EE5D35331A305293001C1E09 /* x509.h */,
+				EE5D35341A305293001C1E09 /* x509_vfy.h */,
+				EE5D35351A305293001C1E09 /* x509v3.h */,
+			);
+			path = Include;
+			sourceTree = "<group>";
+		};
+		EE5D35361A305293001C1E09 /* library */ = {
+			isa = PBXGroup;
+			children = (
+				EE5D35371A305293001C1E09 /* libcrypto.a */,
+				EE5D35381A305293001C1E09 /* libssl.a */,
+			);
+			path = library;
+			sourceTree = "<group>";
+		};
+		EE6BF5BD1A3EDD4E00363385 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				C3E3238F1A89A93F0023FF0A /* AccountManager */,
+				EE7F41C71A3F29CF00F68022 /* DeviceManager */,
+				C36FFD1D1A89A33100DFEBC2 /* IoTAbout.h */,
+				C36FFD1E1A89A33100DFEBC2 /* IoTAbout.m */,
+				C36FFD1F1A89A33100DFEBC2 /* IoTAbout.xib */,
+				EE5C0E401A3FC7700019CFDD /* IoTHelp.h */,
+				EE5C0E411A3FC7700019CFDD /* IoTHelp.m */,
+				EE5C0E421A3FC7700019CFDD /* IoTHelp.xib */,
+				EE5C0E4B1A3FC9FA0019CFDD /* IoTHelpDetail.h */,
+				EE5C0E4C1A3FC9FA0019CFDD /* IoTHelpDetail.m */,
+				EE5C0E4D1A3FC9FA0019CFDD /* IoTHelpDetail.xib */,
+				EE85B8AF1A42763700B2833F /* IoTMainMenu.h */,
+				EE85B8B01A42763700B2833F /* IoTMainMenu.m */,
+				EE85B8B11A42763700B2833F /* IoTMainMenu.xib */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		EE7691461A43F14500B682DD /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				EE7691471A43F14500B682DD /* MBProgressHUD.h */,
+			);
+			name = MBProgressHUD;
+			path = Utils/MBProgressHUD;
+			sourceTree = SOURCE_ROOT;
+		};
+		EE76914A1A43F14900B682DD /* XPGWifiSDK */ = {
+			isa = PBXGroup;
+			children = (
+				EE76914B1A43F14900B682DD /* XPGWifiSDK.framework */,
+			);
+			name = XPGWifiSDK;
+			path = Utils/XPGWifiSDK;
+			sourceTree = SOURCE_ROOT;
+		};
+		EE7693361A44019400B682DD /* iOS-Slide-Menu */ = {
+			isa = PBXGroup;
+			children = (
+				EE7693371A44019400B682DD /* License.txt */,
+				EE7693391A44019400B682DD /* SlideMenu */,
+			);
+			name = "iOS-Slide-Menu";
+			path = "Utils/iOS-Slide-Menu";
+			sourceTree = SOURCE_ROOT;
+		};
+		EE7693391A44019400B682DD /* SlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				EE76933A1A44019400B682DD /* Source */,
+			);
+			path = SlideMenu;
+			sourceTree = "<group>";
+		};
+		EE76933A1A44019400B682DD /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				EE76933B1A44019400B682DD /* Animations */,
+				EE7693471A44019400B682DD /* Assets */,
+				EE76934A1A44019400B682DD /* SlideNavigationController.h */,
+				EE76934B1A44019400B682DD /* SlideNavigationController.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		EE76933B1A44019400B682DD /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				EE76933C1A44019400B682DD /* SlideNavigationContorllerAnimator.h */,
+				EE76933D1A44019400B682DD /* SlideNavigationContorllerAnimatorFade.h */,
+				EE76933E1A44019400B682DD /* SlideNavigationContorllerAnimatorFade.m */,
+				EE76933F1A44019400B682DD /* SlideNavigationContorllerAnimatorScale.h */,
+				EE7693401A44019400B682DD /* SlideNavigationContorllerAnimatorScale.m */,
+				EE7693411A44019400B682DD /* SlideNavigationContorllerAnimatorScaleAndFade.h */,
+				EE7693421A44019400B682DD /* SlideNavigationContorllerAnimatorScaleAndFade.m */,
+				EE7693431A44019400B682DD /* SlideNavigationContorllerAnimatorSlide.h */,
+				EE7693441A44019400B682DD /* SlideNavigationContorllerAnimatorSlide.m */,
+				EE7693451A44019400B682DD /* SlideNavigationContorllerAnimatorSlideAndFade.h */,
+				EE7693461A44019400B682DD /* SlideNavigationContorllerAnimatorSlideAndFade.m */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		EE7693471A44019400B682DD /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				EE7693481A44019400B682DD /* menu-button.png */,
+				EE7693491A44019400B682DD /* menu-button@2x.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		EE7693FE1A44091500B682DD /* IoTProcessModel */ = {
+			isa = PBXGroup;
+			children = (
+				EE7693FF1A44091500B682DD /* include */,
+				EE7694041A44091500B682DD /* IoTProcessModule.bundle */,
+				EE7694051A44091500B682DD /* libIoTProcessModel.a */,
+			);
+			name = IoTProcessModel;
+			path = Utils/IoTProcessModel;
+			sourceTree = SOURCE_ROOT;
+		};
+		EE7693FF1A44091500B682DD /* include */ = {
+			isa = PBXGroup;
+			children = (
+				EE7694001A44091500B682DD /* IoTProcessModel */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		EE7694001A44091500B682DD /* IoTProcessModel */ = {
+			isa = PBXGroup;
+			children = (
+				EE7694011A44091500B682DD /* IoTDeviceList.h */,
+				EE7694021A44091500B682DD /* IoTLogin.h */,
+				EE7694031A44091500B682DD /* IoTProcessModel.h */,
+			);
+			path = IoTProcessModel;
+			sourceTree = "<group>";
+		};
+		EE7F41C71A3F29CF00F68022 /* DeviceManager */ = {
+			isa = PBXGroup;
+			children = (
+				EE7F41D31A3F2B1100F68022 /* IoTDeviceManager.h */,
+				EE7F41D41A3F2B1100F68022 /* IoTDeviceManager.m */,
+				EE7F41D51A3F2B1100F68022 /* IoTDeviceManager.xib */,
+				EE85B8BF1A42895900B2833F /* IoTDeviceDetail.h */,
+				EE85B8C01A42895900B2833F /* IoTDeviceDetail.m */,
+				EE85B8C11A42895900B2833F /* IoTDeviceDetail.xib */,
+			);
+			path = DeviceManager;
+			sourceTree = "<group>";
+		};
+		EEB74E861A4438760039E467 /* ZBarSDK */ = {
+			isa = PBXGroup;
+			children = (
+				EEB74E871A4438760039E467 /* Headers */,
+				EEB74E9E1A4438760039E467 /* Resources */,
+			);
+			name = ZBarSDK;
+			path = Utils/ZBarSDK;
+			sourceTree = SOURCE_ROOT;
+		};
+		EEB74E871A4438760039E467 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				EEB74E881A4438760039E467 /* ZBarSDK */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		EEB74E881A4438760039E467 /* ZBarSDK */ = {
+			isa = PBXGroup;
+			children = (
+				EEB74E891A4438760039E467 /* zbar */,
+				EEB74E931A4438760039E467 /* zbar.h */,
+				EEB74E941A4438760039E467 /* ZBarCameraSimulator.h */,
+				EEB74E951A4438760039E467 /* ZBarCaptureReader.h */,
+				EEB74E961A4438760039E467 /* ZBarHelpController.h */,
+				EEB74E971A4438760039E467 /* ZBarImage.h */,
+				EEB74E981A4438760039E467 /* ZBarImageScanner.h */,
+				EEB74E991A4438760039E467 /* ZBarReaderController.h */,
+				EEB74E9A1A4438760039E467 /* ZBarReaderView.h */,
+				EEB74E9B1A4438760039E467 /* ZBarReaderViewController.h */,
+				EEB74E9C1A4438760039E467 /* ZBarSDK.h */,
+				EEB74E9D1A4438760039E467 /* ZBarSymbol.h */,
+			);
+			path = ZBarSDK;
+			sourceTree = "<group>";
+		};
+		EEB74E891A4438760039E467 /* zbar */ = {
+			isa = PBXGroup;
+			children = (
+				EEB74E8A1A4438760039E467 /* Decoder.h */,
+				EEB74E8B1A4438760039E467 /* Exception.h */,
+				EEB74E8C1A4438760039E467 /* Image.h */,
+				EEB74E8D1A4438760039E467 /* ImageScanner.h */,
+				EEB74E8E1A4438760039E467 /* Processor.h */,
+				EEB74E8F1A4438760039E467 /* Scanner.h */,
+				EEB74E901A4438760039E467 /* Symbol.h */,
+				EEB74E911A4438760039E467 /* Video.h */,
+				EEB74E921A4438760039E467 /* Window.h */,
+			);
+			path = zbar;
+			sourceTree = "<group>";
+		};
+		EEB74E9E1A4438760039E467 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EEB74E9F1A4438760039E467 /* zbar-back.png */,
+				EEB74EA01A4438760039E467 /* zbar-help.html */,
+				EEB74EA11A4438760039E467 /* zbar-helpicons.png */,
+				EEB74EA21A4438760039E467 /* zbar-samples.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EEC35B141A1EEC2400B28C03 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C3D9F1771B0DB56E000EEA47 /* HSVColorPicker */,
+				EEB74E861A4438760039E467 /* ZBarSDK */,
+				EE7693FE1A44091500B682DD /* IoTProcessModel */,
+				EE7693361A44019400B682DD /* iOS-Slide-Menu */,
+				EE76914A1A43F14900B682DD /* XPGWifiSDK */,
+				EE7691461A43F14500B682DD /* MBProgressHUD */,
+				EE5D34E91A305293001C1E09 /* OpenSSL-Universal */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE33B4C81A1C8ED00003854A /* GizwitsLight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE33B4EC1A1C8ED00003854A /* Build configuration list for PBXNativeTarget "GizwitsLight" */;
+			buildPhases = (
+				EE33B4C51A1C8ED00003854A /* Sources */,
+				EE33B4C61A1C8ED00003854A /* Frameworks */,
+				EE33B4C71A1C8ED00003854A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GizwitsLight;
+			productName = AirCondition;
+			productReference = EE33B4C91A1C8ED00003854A /* GizwitsLight.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE33B4C11A1C8ED00003854A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = xpg;
+				TargetAttributes = {
+					EE33B4C81A1C8ED00003854A = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 4F4JWNAD79;
+					};
+				};
+			};
+			buildConfigurationList = EE33B4C41A1C8ED00003854A /* Build configuration list for PBXProject "GizwitsLight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = EE33B4C01A1C8ED00003854A;
+			productRefGroup = EE33B4CA1A1C8ED00003854A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE33B4C81A1C8ED00003854A /* GizwitsLight */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE33B4C71A1C8ED00003854A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7693541A44019400B682DD /* menu-button@2x.png in Resources */,
+				D88A6F731ABA6DDB006F350A /* device-13@2x.png in Resources */,
+				EE76934C1A44019400B682DD /* License.txt in Resources */,
+				C3DECE791B0ADD4400EFD7A9 /* sewen_bg4.png in Resources */,
+				EE85B8B31A42763700B2833F /* IoTMainMenu.xib in Resources */,
+				EE2769441A41880200E0E89F /* IoTAlertView.xib in Resources */,
+				C3DECE7C1B0AE40E00EFD7A9 /* liangdu_bg@2x.png in Resources */,
+				D88A6F651ABA6DDB006F350A /* return_icon@2x.png in Resources */,
+				D88A6F691ABA6DDB006F350A /* button_logout@2x.png in Resources */,
+				C3E323971A89A93F0023FF0A /* IoTAccountManager.xib in Resources */,
+				C31A5D5B1B147A8600E8076D /* hua@2x.png in Resources */,
+				EEB74E7C1A4433930039E467 /* Localizable.strings in Resources */,
+				EEB74EA61A4438760039E467 /* zbar-samples.png in Resources */,
+				EE7F41D71A3F2B1100F68022 /* IoTDeviceManager.xib in Resources */,
+				EE85B8C31A42895900B2833F /* IoTDeviceDetail.xib in Resources */,
+				EE5C0E4F1A3FC9FA0019CFDD /* IoTHelpDetail.xib in Resources */,
+				C3E323991A89A93F0023FF0A /* IoTChangePassword.xib in Resources */,
+				EE5C0E5C1A4018C80019CFDD /* IoTMainController.xib in Resources */,
+				C3DECE8C1B0B119600EFD7A9 /* icon_left@2x.png in Resources */,
+				C3DECE731B0ADD4400EFD7A9 /* icon_off.png in Resources */,
+				D88A6F621ABA6DDB006F350A /* tips_box@2x.png in Resources */,
+				D88A6F601ABA6DDB006F350A /* cover_menu_bottom_bg@2x.png in Resources */,
+				C3DECE771B0ADD4400EFD7A9 /* icon-31@2x.png in Resources */,
+				C36FFD211A89A33100DFEBC2 /* IoTAbout.xib in Resources */,
+				C3DECE871B0AE6BA00EFD7A9 /* menu_88-03@2x.png in Resources */,
+				C3DECE761B0ADD4400EFD7A9 /* icon-30@2x.png in Resources */,
+				D86BC8EA1AB914A200A4C2D3 /* data.json in Resources */,
+				EEB74EA41A4438760039E467 /* zbar-help.html in Resources */,
+				EE7694061A44091500B682DD /* IoTProcessModule.bundle in Resources */,
+				EEF2567A1A1F265B00FAA268 /* Images.xcassets in Resources */,
+				C3DECE741B0ADD4400EFD7A9 /* icon_on.png in Resources */,
+				C3DECE781B0ADD4400EFD7A9 /* line@2x.png in Resources */,
+				D88A6F611ABA6DDB006F350A /* fault_tips_box@2x.png in Resources */,
+				C3DECE881B0AE6BA00EFD7A9 /* menu_88-04@2x.png in Resources */,
+				D88A6F721ABA6DDB006F350A /* device-12@2x.png in Resources */,
+				D88A6F631ABA6DDB006F350A /* button_1@2x.png in Resources */,
+				D88A6F671ABA6DDB006F350A /* about@2x.png in Resources */,
+				C3DECE891B0AE6BA00EFD7A9 /* menu_88-05@2x.png in Resources */,
+				C3DECE751B0ADD4400EFD7A9 /* icon-20@2x.png in Resources */,
+				C3DECE901B0B11A600EFD7A9 /* icon_right@2x.png in Resources */,
+				C3DECE8E1B0B119F00EFD7A9 /* icon_menu@2x.png in Resources */,
+				C3DECE7D1B0AE40E00EFD7A9 /* sewen_bg@2x.png in Resources */,
+				D88A6F681ABA6DDB006F350A /* about@3x.png in Resources */,
+				EEB74EA31A4438760039E467 /* zbar-back.png in Resources */,
+				EE5C0E441A3FC7700019CFDD /* IoTHelp.xib in Resources */,
+				C38099F41B0F0A4B00D781F5 /* stripe_min@2x.png in Resources */,
+				EEB74EA51A4438760039E467 /* zbar-helpicons.png in Resources */,
+				D88A6F641ABA6DDB006F350A /* call@2x.png in Resources */,
+				D88A6F711ABA6DDB006F350A /* confirm_icon@2x.png in Resources */,
+				EE7693531A44019400B682DD /* menu-button.png in Resources */,
+				C3DECE8A1B0AE6BA00EFD7A9 /* menu_88@2x.png in Resources */,
+				C3DECE861B0AE6BA00EFD7A9 /* menu_88-02@2x.png in Resources */,
+				C3DECE851B0AE6BA00EFD7A9 /* device_list-32@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE33B4C51A1C8ED00003854A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE85B8B21A42763700B2833F /* IoTMainMenu.m in Sources */,
+				EE7693511A44019400B682DD /* SlideNavigationContorllerAnimatorSlide.m in Sources */,
+				EE7693521A44019400B682DD /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */,
+				EE7F41D61A3F2B1100F68022 /* IoTDeviceManager.m in Sources */,
+				EE33B4D21A1C8ED00003854A /* AppDelegate.m in Sources */,
+				C3D9F17F1B0DB56E000EEA47 /* HSVColorPicker.m in Sources */,
+				C3E323981A89A93F0023FF0A /* IoTChangePassword.m in Sources */,
+				EE33B4CF1A1C8ED00003854A /* main.m in Sources */,
+				EE7693501A44019400B682DD /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */,
+				EE5C0E4E1A3FC9FA0019CFDD /* IoTHelpDetail.m in Sources */,
+				C3E323961A89A93F0023FF0A /* IoTAccountManager.m in Sources */,
+				EE5C0E5B1A4018C80019CFDD /* IoTMainController.m in Sources */,
+				EE76934E1A44019400B682DD /* SlideNavigationContorllerAnimatorFade.m in Sources */,
+				EE5C0E431A3FC7700019CFDD /* IoTHelp.m in Sources */,
+				EE85B8C21A42895900B2833F /* IoTDeviceDetail.m in Sources */,
+				EE7693551A44019400B682DD /* SlideNavigationController.m in Sources */,
+				C3D9F1801B0DB56E000EEA47 /* UIColor+HexCodes.m in Sources */,
+				EE2769431A41880200E0E89F /* IoTAlertView.m in Sources */,
+				C36FFD201A89A33100DFEBC2 /* IoTAbout.m in Sources */,
+				EE76934F1A44019400B682DD /* SlideNavigationContorllerAnimatorScale.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EEB74E7E1A4433930039E467 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEB74E7D1A4433930039E467 /* en */,
+				EEB74E7F1A4433B00039E467 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE33B4EA1A1C8ED00003854A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE33B4EB1A1C8ED00003854A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE33B4ED1A1C8ED00003854A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Utils/XPGWifiSDK",
+				);
+				GCC_PREFIX_HEADER = GizwitsLight/GizwitsLight.pch;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)/Utils/IoTProcessModel/include\"",
+				);
+				INFOPLIST_FILE = GizwitsLight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Utils/OpenSSL-Universal/library",
+					"$(PROJECT_DIR)/Utils/IoTProcessModel",
+					"$(PROJECT_DIR)/Utils/ZBarSDK",
+				);
+				PRODUCT_NAME = GizwitsLight;
+			};
+			name = Debug;
+		};
+		EE33B4EE1A1C8ED00003854A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Utils/XPGWifiSDK",
+				);
+				GCC_PREFIX_HEADER = GizwitsLight/GizwitsLight.pch;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"\"$(SRCROOT)/Utils/IoTProcessModel/include\"",
+				);
+				INFOPLIST_FILE = GizwitsLight/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Utils/OpenSSL-Universal/library",
+					"$(PROJECT_DIR)/Utils/IoTProcessModel",
+					"$(PROJECT_DIR)/Utils/ZBarSDK",
+				);
+				PRODUCT_NAME = GizwitsLight;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE33B4C41A1C8ED00003854A /* Build configuration list for PBXProject "GizwitsLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE33B4EA1A1C8ED00003854A /* Debug */,
+				EE33B4EB1A1C8ED00003854A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE33B4EC1A1C8ED00003854A /* Build configuration list for PBXNativeTarget "GizwitsLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE33B4ED1A1C8ED00003854A /* Debug */,
+				EE33B4EE1A1C8ED00003854A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE33B4C11A1C8ED00003854A /* Project object */;
+}
