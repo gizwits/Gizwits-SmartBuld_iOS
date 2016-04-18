@@ -28,6 +28,7 @@
 #import "IoTHelp.h"
 #import "IoTAbout.h"
 #import "IoTMainController.h"
+#import "IoTVersion.h"
 
 #import "SlideNavigationController.h"
 
@@ -47,7 +48,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    subItems = @[@"设备管理", @"账号管理", @"帮助", @"关于"];
+    subItems = @[@"设备管理", @"账号管理", @"帮助", @"关于", @"版本信息"];
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -223,6 +224,13 @@
         cell.textLabel.text = subItems[indexPath.row-deviceCount];
         cell.textLabel.textColor = [UIColor blackColor];
     }
+    //版本信息
+    if(indexPath.row == deviceCount+4)
+    {
+        cell.imageView.image = [UIImage imageNamed:@"menu_88-04"];
+        cell.textLabel.text = subItems[indexPath.row-deviceCount];
+        cell.textLabel.textColor = [UIColor blackColor];
+    }
     
     
     //在这里，加'>'符号
@@ -302,6 +310,13 @@
         //关于
         IoTAbout *aboutCtrl = [[IoTAbout alloc] init];
         [self pushToViewController:aboutCtrl];
+        [self.view setUserInteractionEnabled:NO];
+    }
+    if(indexPath.row == deviceCount+4)
+    {
+        //版本信息
+        IoTVersion *versionCtrl = [[IoTVersion alloc] init];
+        [self pushToViewController:versionCtrl];
         [self.view setUserInteractionEnabled:NO];
     }
     [self performSelector:@selector(startViewAction) withObject:nil afterDelay:1];
