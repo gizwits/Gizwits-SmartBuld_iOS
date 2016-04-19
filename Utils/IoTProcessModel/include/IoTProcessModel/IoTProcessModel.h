@@ -84,7 +84,7 @@
  * @param data：product json
  * @result 非空则成功
  */
-+ (IoTProcessModel *)startWithAppID:(NSString *)appid product:(NSString *)product productJson:(NSData *)data;
++ (IoTProcessModel *)startWithAppID:(NSString *)appid appSecret:(NSString*)appSecret product:(NSString *)product productJson:(NSData *)data;
 
 /**
  * @brief 初始化中控
@@ -124,7 +124,7 @@
 @property (nonatomic, strong) UIColor *tintColor;
 
 /**
- * @brief 当前已登录的用户名、uid、token
+ * @brief 当前已登录的用户名、uid、token、secrt
  */
 @property (nonatomic, strong, readonly) NSString *currentUser;
 @property (nonatomic, strong, readonly) NSString *currentUid;
