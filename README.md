@@ -1,7 +1,15 @@
 机智云智能灯泡（单品）
 =============
 
-Gizwits Light iOS Demo App
+    使用机智云开源APP之前，需要先在机智云开发平台创建您自己的产品和应用。
+
+    开源App需要使用您申请的AppId、AppSecret以及您自己的产品ProductKey才能正常运行。
+
+    具体申请流程请参见：http://docs.gizwits.com/hc/。
+
+    上述信息申请好之后，在代码中请找到"your_app_id"、"your_app_secret"、"your_product_key"字符串做相应的替换。
+
+Gizwits Power Socket Android Demo App
 
 	▪这是一款使用XPGWifiSDK的开源代码示例APP，可以帮助开发者快速入手，使用XPGWifiSDK开发连接机智云的物联APP。
 	▪该APP针对的是智能家电中的灯泡类产品。
