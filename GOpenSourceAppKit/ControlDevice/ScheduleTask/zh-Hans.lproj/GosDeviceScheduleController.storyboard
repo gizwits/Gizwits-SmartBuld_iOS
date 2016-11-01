@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="zOh-dH-raI">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Gos Device Schedule Controller-->
+        <scene sceneID="L0X-Zw-mXw">
+            <objects>
+                <viewController id="zOh-dH-raI" customClass="GosDeviceScheduleController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="OsH-H8-Ew0"/>
+                        <viewControllerLayoutGuide type="bottom" id="zlx-Nq-vTW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dJ2-IP-TrY">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="jSo-D1-3Ks">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="500"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sFi-MN-uxr">
+                                <rect key="frame" x="0.0" y="500" width="600" height="100"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="twd-xa-jxZ">
+                                        <rect key="frame" x="273" y="8" width="55" height="55"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="55" id="O1x-8n-Ia6"/>
+                                            <constraint firstAttribute="height" constant="55" id="gxV-l2-3bD"/>
+                                        </constraints>
+                                        <state key="normal" image="timer_btn_add.png"/>
+                                        <connections>
+                                            <action selector="addTimerSubscribe" destination="zOh-dH-raI" eventType="touchUpInside" id="STr-Cl-1qj"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="添加预约" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c3N-pt-eGm">
+                                        <rect key="frame" x="266" y="69" width="68" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="c3N-pt-eGm" firstAttribute="centerX" secondItem="sFi-MN-uxr" secondAttribute="centerX" id="Aix-ZC-9eD"/>
+                                    <constraint firstItem="twd-xa-jxZ" firstAttribute="centerX" secondItem="sFi-MN-uxr" secondAttribute="centerX" id="D6S-94-25u"/>
+                                    <constraint firstItem="c3N-pt-eGm" firstAttribute="top" secondItem="twd-xa-jxZ" secondAttribute="bottom" constant="6" id="QfU-Md-25I"/>
+                                    <constraint firstItem="twd-xa-jxZ" firstAttribute="top" secondItem="sFi-MN-uxr" secondAttribute="top" constant="8" id="pyb-m5-ogh"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3y7-qf-jVb" userLabel="UnDataView">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="500"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="暂无定时预约任务" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kMg-zG-3A7">
+                                        <rect key="frame" x="228" y="218" width="144" height="22"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="kMg-zG-3A7" firstAttribute="centerX" secondItem="3y7-qf-jVb" secondAttribute="centerX" id="fcK-sX-aY5"/>
+                                    <constraint firstItem="kMg-zG-3A7" firstAttribute="centerY" secondItem="3y7-qf-jVb" secondAttribute="centerY" id="xMj-j2-kY5"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3y7-qf-jVb" firstAttribute="trailing" secondItem="jSo-D1-3Ks" secondAttribute="trailing" id="0tx-jV-nFW"/>
+                            <constraint firstItem="jSo-D1-3Ks" firstAttribute="top" secondItem="OsH-H8-Ew0" secondAttribute="bottom" id="EeE-Qa-pZt"/>
+                            <constraint firstItem="sFi-MN-uxr" firstAttribute="leading" secondItem="dJ2-IP-TrY" secondAttribute="leading" id="Mzv-A3-tBd"/>
+                            <constraint firstItem="sFi-MN-uxr" firstAttribute="top" secondItem="jSo-D1-3Ks" secondAttribute="bottom" id="NCa-z3-FLu"/>
+                            <constraint firstItem="jSo-D1-3Ks" firstAttribute="top" secondItem="OsH-H8-Ew0" secondAttribute="bottom" constant="24" id="PdO-OA-It0"/>
+                            <constraint firstItem="3y7-qf-jVb" firstAttribute="top" secondItem="jSo-D1-3Ks" secondAttribute="top" id="Pvz-OQ-wNR"/>
+                            <constraint firstItem="zlx-Nq-vTW" firstAttribute="top" secondItem="jSo-D1-3Ks" secondAttribute="bottom" constant="100" id="QFA-pE-hyL"/>
+                            <constraint firstItem="3y7-qf-jVb" firstAttribute="leading" secondItem="jSo-D1-3Ks" secondAttribute="leading" id="YHp-7O-dHT"/>
+                            <constraint firstItem="3y7-qf-jVb" firstAttribute="bottom" secondItem="jSo-D1-3Ks" secondAttribute="bottom" id="cSL-le-HUG"/>
+                            <constraint firstAttribute="trailing" secondItem="jSo-D1-3Ks" secondAttribute="trailing" id="emf-uH-3bm"/>
+                            <constraint firstAttribute="trailing" secondItem="sFi-MN-uxr" secondAttribute="trailing" id="g2d-mR-Jwk"/>
+                            <constraint firstItem="jSo-D1-3Ks" firstAttribute="leading" secondItem="dJ2-IP-TrY" secondAttribute="leading" id="jSc-1D-Sjn"/>
+                            <constraint firstItem="jSo-D1-3Ks" firstAttribute="top" secondItem="dJ2-IP-TrY" secondAttribute="topMargin" id="rkc-15-qx3"/>
+                            <constraint firstItem="zlx-Nq-vTW" firstAttribute="top" secondItem="sFi-MN-uxr" secondAttribute="bottom" id="uYA-Gn-LoA"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="EeE-Qa-pZt"/>
+                                <exclude reference="PdO-OA-It0"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="jSo-D1-3Ks" id="FMB-1D-SUO"/>
+                        <outlet property="unDataView" destination="3y7-qf-jVb" id="lZx-ZB-zxj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6bW-cs-ZOt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="251" y="240"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="timer_btn_add.png" width="195" height="195"/>
+    </resources>
+</document>

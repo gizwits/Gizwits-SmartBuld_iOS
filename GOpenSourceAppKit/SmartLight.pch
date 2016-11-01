@@ -1,0 +1,22 @@
+//
+//  SmartLight.pch
+//  SmartLight
+//
+//  Created by danly on 16/8/10.
+//  Copyright © 2016年 Gizwits. All rights reserved.
+//
+
+#ifndef SmartLight_pch
+#define SmartLight_pch
+
+#import <GizWifiSDK/GizWifiDevice.h>
+#import <GizWifiSDK/GizWifiSDK.h>
+#import "GosTipView.h"
+#import "AppDelegate.h"
+#import "GosCommon.h"
+
+#define BackgroundRedColor 237/255.0
+#define BackgroundGreenColor 237/255.0
+#define BackgroundBlueColor 237/255.0
+
+#endif /* SmartLight_pch */
