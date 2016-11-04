@@ -1,0 +1,18 @@
+
+/* Class = "UIButton"; normalTitle = "关灯"; ObjectID = "2Jl-or-amU"; */
+"2Jl-or-amU.normalTitle" = "关灯";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "2vz-eC-Tjt"; */
+"2vz-eC-Tjt.text" = "Label";
+
+/* Class = "UILabel"; text = "延时关灯："; ObjectID = "Fgq-qP-ZT7"; */
+"Fgq-qP-ZT7.text" = "延时关灯：";
+
+/* Class = "UILabel"; text = "亮度"; ObjectID = "HpU-jI-bQJ"; */
+"HpU-jI-bQJ.text" = "亮度";
+
+/* Class = "UILabel"; text = "40分钟后"; ObjectID = "Wzg-f6-UT9"; */
+"Wzg-f6-UT9.text" = "40分钟后";
+
+/* Class = "UIButton"; normalTitle = "开灯"; ObjectID = "y7y-Hp-0vd"; */
+"y7y-Hp-0vd.normalTitle" = "开灯";

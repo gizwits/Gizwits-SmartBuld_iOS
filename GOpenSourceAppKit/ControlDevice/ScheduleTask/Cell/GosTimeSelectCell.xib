@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="GosTimeSelectCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="216"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="215"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RU6-dU-diD">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="216"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="320" id="kQJ-OF-nIK"/>
+                            <constraint firstAttribute="height" constant="216" id="zPh-3b-e6m"/>
+                        </constraints>
+                    </pickerView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="RU6-dU-diD" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="ZDq-xY-aLF"/>
+                    <constraint firstItem="RU6-dU-diD" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="m2l-Tu-LQO"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="pickerView" destination="RU6-dU-diD" id="NEw-Ov-B0S"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>
