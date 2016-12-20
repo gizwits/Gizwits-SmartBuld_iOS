@@ -1,8 +1,6 @@
 # GizOpenSource-SmartLight_iOS
 ==================
 
-##功能介绍
-
 ## 介绍
     
     这是一款可以帮助开发者快速使用GizWifiSDK，连接到机智云的开源物联示例APP，该APP针对的是智能家电中的灯泡类产品。
